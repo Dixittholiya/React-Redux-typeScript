@@ -1,0 +1,43 @@
+#Login{
+    .main-div{
+        width: 100%;
+        background-color: beige;
+        .child-div{
+            margin-top: 50px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            background-color: rgb(245, 245, 245);
+            width: 75%;
+            margin: auto;
+            .loginForm{
+                .title{
+                    text-align: end;
+                }
+                .email{
+                    display: flex;
+                    width: 137%;
+                    margin: 92px 20px 40px 24px;
+                }
+                .password{
+                    display: flex;
+                    width: 137%;
+                    margin: 92px 20px 40px 24px;
+                }
+                .submitButton{
+                    .button{
+                        margin: 23px 0px 0 252px;
+                        padding: 5px 20px 37px 20px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .img{
+                .image{
+                    width: 79%;
+                    height: 86%;
+                    margin-left: 182px;
+                }
+            }
+        }
+    }
+}

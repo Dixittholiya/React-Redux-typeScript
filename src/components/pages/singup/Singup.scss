@@ -1,0 +1,41 @@
+#shingup {
+  .main-div {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+  }
+  .child-div {
+    width: 50%;
+    // align-items: center;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    margin: auto;
+    padding: 20px 0;
+
+    .title{
+      margin-bottom: 50px;
+    }
+
+    .userName{
+      display: flex;
+      margin: 1px 68px 39px 77px;
+    }
+    .email{
+      display: flex;
+      margin: 1px 68px 39px 63px;
+    }
+    .password{
+      display: flex;
+      margin: 1px 68px 39px 82px;
+    }
+    .comformPassword{
+      display: flex;
+      margin: 1px 68px 39px 40px;
+    }
+    .submitButton{
+        margin-top: 25px;
+        .button{
+            padding: 4px 26px;
+        }
+    }
+  }
+}

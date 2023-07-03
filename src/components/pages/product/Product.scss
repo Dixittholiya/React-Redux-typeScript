@@ -1,0 +1,11 @@
+#Product{
+    .showCard{
+        display: flex;
+        // justify-content: space-between;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .class{
+            margin-top: 100px;
+        }
+    }
+}

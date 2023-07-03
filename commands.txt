@@ -1,0 +1,11 @@
+npx create-react-app react-redux-ts --template typescript
+npm i react-redux
+npm i redux react-redux
+npm i sacc   (sacc use .css)
+npm i antd (antd use .design)
+npm i react-router-dom (use single page app)
+npm i axios
+npm i @types/react-redux
+npm i redux-logger
+npm i redux-persist
+npm install react-icons --save
